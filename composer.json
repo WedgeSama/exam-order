@@ -1,0 +1,14 @@
+{
+    "name": "pressop/exam-order",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Georgeault",
+            "email": "benjamin@pressop.eu"
+        }
+    ],
+    "require": {
+        "php": "^7.1.14"
+    }
+}
