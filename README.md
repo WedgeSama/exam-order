@@ -45,6 +45,40 @@ Group n°2
 Group n°7
 ```
 
+### Make your groups
+
+```
+php group-maker.php [perGroupNumber] [seed]
+```
+
+You have to create a `names.json` file in root project directory., See [name.json.dist](name.json.dist) for an example.
+
+Example
+```
+php group-maker.php 3 522fdeba88b7715d428e
+```
+
+You will get something like that:
+```
+Group n°1:
+ikoelpin
+beier.marc
+hane.christina
+
+Group n°2:
+monty93
+wondricka
+elinore23
+
+Group n°3:
+celia68
+haley.cleve
+erna39
+
+Group n°4:
+braun.larue
+xernser
+```
 
 ## License
 
