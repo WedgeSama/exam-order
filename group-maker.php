@@ -68,6 +68,10 @@ foreach (array_keys($namesOrder) as $i => $order) {
         0 === $i % $perGroupNumber &&
         ($i !== count($namesOrder) - 1)
     ) {
+        if ($i !== 0) {
+            echo "\n";
+        }
+
         echo 'Group n°' . ++$groupCounter . ":\n";
     }
 
