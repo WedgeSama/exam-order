@@ -18,7 +18,7 @@ if (3 !== count($argv)) {
     exit;
 }
 
-if (1 > $perGroupNumber = (int) $argv[1]) {
+if (2 > $perGroupNumber = (int) $argv[1]) {
     throw new RuntimeException(sprintf(
         'Set more then 1 person per group.'
     ));
@@ -61,7 +61,6 @@ for ($i = 0; $i < count($json); $i++) {
 }
 
 asort($namesOrder);
-
 
 $groupCounter = 0;
 foreach (array_keys($namesOrder) as $i => $order) {
